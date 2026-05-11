@@ -109,7 +109,7 @@ def visualize_results(model, test_loader, history):
         sub.set_title(f'P:{classes[preds[i]]}', color=color, fontsize=8)
         sub.axis('off')
 
-    plt.tight_layout(rect=dd .)
+    plt.tight_layout(rect=[0, 0.03, 1, 0.95])
     plt.savefig('analisis_dnn_khosyatullah.png')
     plt.show()
 
